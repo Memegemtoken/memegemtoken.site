@@ -1,0 +1,8 @@
+git init
+echo "build/" > .gitignore
+echo -e "Flask==2.0.1\nFrozen-Flask==0.18" > requirements.txt
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-username/memegemtoken.git
+git branch -M main
+git push -u origin main
